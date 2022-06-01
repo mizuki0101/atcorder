@@ -1,0 +1,26 @@
+python3 answer.py < input.txt
+
+(1)数字が1つ
+入力例：N
+N=int(input())
+
+(2)数字が2つ以上で別々に受け取り
+入力例：A B
+A,B=map(int,input().split())
+
+(3)文字列が1つ
+入力例：S
+S=input()
+
+(4)文字列が2つ以上で別々に受け取り
+入力例：S T
+S,T=map(str,input().split())
+
+(5)リストで受け取り
+入力例：A1 A2 … An 
+A=list(map(int,input().split()))
+
+配列への追記はappend
+
+リスト要素の出力は*をつける
+print(*list)
