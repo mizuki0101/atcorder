@@ -29,3 +29,9 @@ print(*list)
 1000000=10^6回
 
 処理を途中で終わらせたい場合はexit()と書く
+
+2次元配列
+for i in range(N):
+    A,B=map(str, input().split())
+    A=int(A)
+    list.append([A,B])
