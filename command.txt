@@ -24,3 +24,14 @@ A=list(map(int,input().split()))
 
 リスト要素の出力は*をつける
 print(*list)
+
+全探索で間に合うかどうかの判断基準
+1000000=10^6回
+
+処理を途中で終わらせたい場合はexit()と書く
+
+2次元配列
+for i in range(N):
+    A,B=map(str, input().split())
+    A=int(A)
+    list.append([A,B])
